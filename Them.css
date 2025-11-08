@@ -29,8 +29,10 @@ h1 {
 /* Navigation Bar */ 
 nav {
 background-color: #db9f12;
-animation-name: left;
 display: flex;
+color: brown;
+justify-content: left;
+padding: 10px;
 }
 
 /* style */ 
@@ -45,7 +47,7 @@ dt {
 
 /* class resort */ 
 .form{
-    color: #1976D2;
+    color: red;
 }
 
 /* class resort */ 
@@ -104,10 +106,10 @@ textarea {
 input[type=submit] {
   width: 100%;
   background-color:#db520d;
-  color: white;
+  color: #b6040a;
   padding: 14px;
   margin: 8px 0;
-  border: none;
+  border: 5px solid #db520d;
   border-radius: 4px;
   cursor: pointer;
 }
