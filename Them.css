@@ -1,0 +1,129 @@
+/* Global styles */ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+body {
+     color: #FFFFFF;
+  color: #050315;
+  font-family: sans-serif ;
+}
+
+/* Header */ 
+header {
+padding-bottom: 0px;
+padding-top: 0px;
+margin: auto;
+}
+
+/* Header */ 
+h1 {
+  background-color:#db9f12;
+  color: #FFFFFF;
+  margin-bottom: 0;
+}
+
+/* Navigation Bar */ 
+nav {
+background-color: #db9f12;
+animation-name: left;
+display: flex;
+}
+
+/* style */ 
+h2 {
+  color:#db520d;
+}
+
+/* style */ 
+dt {
+ color:#db520d;
+}
+
+/* class resort */ 
+.form{
+    color: #1976D2;
+}
+
+/* class resort */ 
+.updates{
+    color:#db9f12;
+}
+
+div.form{
+    background-color: #db9f12;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive-form {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 4px;
+  border: 2px solid #db520d;
+  background-color:  #f2f2f2;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+label {
+  min-width: 48%;
+  margin-bottom: 10px;
+}
+
+input[type=text], select {
+  min-width: 45%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+textarea {
+  min-width: 45%;
+  height: 150px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color:#db520d;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+
+
+
+/* id contact :: add at later date*/
+/*
+
+# contact {}
+--text: #050315;
+--background: #db9f12;
+--primary: #db520d;
+--secondary: #b6040a;
+--accent: #3a5700;
+
+*/ 
