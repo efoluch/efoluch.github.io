@@ -154,7 +154,7 @@ h3 {
 /* -----------------------------------
    Ana and Erin
 ----------------------------------- */
- .Ana,  .Erin { 
+ h4 { 
   text-align: center;
   display: flex;
   justify-content: center;
@@ -461,4 +461,5 @@ color palette
   dark green: #42551e
 
 ----------------------------------- */
+
 
