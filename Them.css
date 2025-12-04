@@ -171,10 +171,15 @@ h3 {
 .Ana video { 
   border-radius: 4px;
 }
+h5 {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 150px;
+}
 
 /* -----------------------------------
    Form Styles
-    (note: dont use: grid-template-columns: auto auto;
+    (note: don't use: grid-template-columns: auto auto;
   grid-template-rows: auto;)
 ----------------------------------- */
 
@@ -461,5 +466,6 @@ color palette
   dark green: #42551e
 
 ----------------------------------- */
+
 
 
