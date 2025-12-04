@@ -154,22 +154,22 @@ h3 {
 /* -----------------------------------
    Ana and Erin
 ----------------------------------- */
- .Ana,  .Erin { 
+.organizer-card {
   text-align: center;
+  border: 10px solid #db520d;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  border: #db520d 8px solid;
   border-radius: 4px;
-  padding: 1px 1px;
+  padding: 50px;
   margin: 100px 100px;
 }
 
-.Erin video,
-.Ana video { 
-  border-radius: 4px;
+.profile-video {
+    width: 500px;
+    max-width: 600px;
+    height: 400px;
+    max-height: 500px;
+    display: block;
+    margin: 0 auto;
 }
 
 /* -----------------------------------
@@ -461,3 +461,4 @@ color palette
   dark green: #42551e
 
 ----------------------------------- */
+
