@@ -1,72 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>	
-<title>Them Trails</title>
-<meta charset="utf-8">
-<link href="./Them.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Them Trails</title>
+    <link href="./Them.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
-<header> 
-    <div>
-  <img src="./trail1.jpg" alt="trails" width="600" height="400">
-    </div>
-    <h1>Them Trails</h1>
 
+<!-- Sidebar Navigation -->
+<nav class="sidenav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="NewRunners.html">New Runners</a></li>
+        <li><a href="Organizers.html">Organizers</a></li>
+        <li><a href="Events.html">Events</a></li>
+    </ul>
+</nav>
+
+   <!-- Header -->
+    <header class="home-page">
+    <h1>Them Trails</h1>
 </header>
 
-<nav> <b>
-    <a href="index.html">Home</a> &nbsp; 
-     <a href="NewRunners.html">New Runners</a> &nbsp;
-      <a href="TheTrails.html">The Trails</a> &nbsp;
-      <a href="Organizer.html">Organizer</a> &nbsp;
-      <a href="Events.html">Events</a> &nbsp;
-      </b>
-     </nav>
 
+
+<!-- Main content wrapper -->
 <main>
- <h2>Thems Trails</h2>
-    <p>Welcome to Them Trails! We are a community of trail runners who love to explore the great outdoors. Whether you're a seasoned trail runner or just starting out, we have something for everyone. Join us for group runs two times a week or join us on one of our many events throughout the year. We are a LBGTQIQA + and allies looking to offer a safe community of runners who enjoy trail running. So lace up your shoes, grab your hydration pack, and let's hit the trails together!</p>
- 
- <br>
+    <div class="main">
+
+        <!-- Introduction -->
+        <section>
+            <br>
+            <h2>Welcome to Them Trails</h2>
+            <p>
+                We are a community of trail runners who love to explore the great outdoors. 
+                Whether you're a seasoned trail runner or just starting out, we have something for everyone. 
+                Join us for group runs two times a week or participate in one of our many events throughout the year. 
+                We are a LGBTQIQA+ and allies community offering a safe environment for trail runners. 
+                So lace up your shoes, grab your hydration pack, and let's hit the trails together!
+            </p>
+        </section>
+
+        <!-- Calendar -->
+        <section>
+            <h3>Thems Running Calendar</h3>
+
+            <div class="month">      
+                <ul>
+                    <li class="prev">&#10094;</li>
+                    <li class="next">&#10095;</li>
+                    <li>
+                        December<br>
+                        <span style="font-size:18px">2025</span>
+                    </li>
+                </ul>
+           
+
+            <ul class="weekdays">
+                <li>Monday</li>
+                <li>Tuesday</li>
+                <li>Wednesday</li>
+                <li>Thursday</li>
+                <li>Friday</li>
+                <li>Saturday</li>
+                <li>Sunday</li>
+            </ul>
+
+            <ul class="days">  
+                <li>1</li>
+                <li>2 Group Run Phx</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9 Group Run Phx</li>
+                <li><span class="active">10</span></li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16 Group Run Phx</li>
+                <li>17</li>
+                <li>18 Prescott Run</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23 Group Run Phx</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30 No Run</li>
+                <li>31</li>
+            </ul>
+             </div>
+        </section>
+
+        <!-- Registration Form -->
+         <div class="two-column">
+
+            <div class="left-column">
+                <section>
+        
+                    <form action="/submit_form" method="post">
+                         <p><h3>Join Them Trails</h3> 
+                         <br>
+                         <p>Fill out the form below to join our trail running community!</p>
+                         <br><br>
+
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="fname" placeholder="Your first name">
+
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="lname" placeholder="Your last name">
+
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="email" placeholder="Your email">
+
+                        <label for="emergency_contact">Emergency Contact:</label>
+                        <input type="text" id="emergency_contact" name="emergency_contact" placeholder="Your emergency contact">
+
+                        <label for="contact_phone">Emergency Contact Phone:</label>
+                        <input type="text" id="contact_phone" name="contact_phone" placeholder="Emergency contact phone number">
+
+                        <label for="pronouns">Pronouns:</label>
+                        <input type="text" id="pronouns" name="pronouns" placeholder="What are your pronouns?">
+
+                        <label>
+                            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                            Subscribe for our emails
+                        </label>
+                        
+                        <input type="submit" value="Submit to Join">
+                    </form>
+                </section>
+            </div>
+
+            <!-- Updates -->
+             <div class="right-column">
+                <section id="updates">
+                    <p><h3>Latest Updates</h3>
+                    <br>
+                    <ul>
+                        <li>Meet-ups start the first week of January</li> 
+                        <br>
+                        <li>Help with food drive</li> 
+                        <br>
+                        <li>Volunteer opportunities available</li> 
+                        <br>
+                        <li>Group run schedule updated</li> 
+                        <br>
+                        <li>Safety guidelines for trail running</li> 
+                        <br>
+                        <li>Training tips for beginners</li> 
+                        <br>
+                    </p>
+                    </ul>
+                </section>
+            </div>
+         </div>
+    </div>
 </main>
-<form action="/action_page.php">
-   <label for="fname">First Name:</label>
-   <input type="text" id="fname" name="fname" placeholder="Your first name">
 
-   <label for="lname">Last Name:</label>
-   <input type="text" id="lname" name="lname" placeholder="Your last name">
+<!-- Footer -->
+<footer>
+    <small>
+        <a href="mailto:efoluch@asu.edu">ErinFoluch@asu.edu</a><br>
+        &copy; 2026 Them Trails
+    </small>
+</footer>
 
-    <label for="email">Email:</label>
-    <input type="text" id="email" name="email" placeholder="Your email">
-
-     <label for="contact">Emergency Contact:</label>
-    <input type="text" id="contact" name="contract" placeholder="Your emergency contact">
-    
-    <label for="Pronouns">Pronouns:</label>
-    <textarea id="Pronouns" name="Pronouns" placeholder="What are your Pronouns?"></textarea>
-
-    <input type="submit" value="Submit">
- </form>
-
-</div>
-
-
-<div id="updates"><p>
-    <span class="updates">Updates</span><br>
-    <li>Some trails are closed duer to the Gov shutdown</li>
-    <li>Help with food drive</li>
-    <li>Newxt race is McDowell Mountain Race</li>
-    <li>Looking for Pacemaker needed for upcoming run</li>
- </p></div>
- 
-   <footer>
-        <small>
-            
-        <a href="efoluch@asu.edu">ErinFoluch@asu.edu</a>
-        <br>
-         copyright &copy; 2026  Them Trails<br>
-        </small>
-    </footer>
 </body>
 </html>
+
