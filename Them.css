@@ -18,7 +18,7 @@ body {
   p {
     text-indent: 50px; 
     padding-left: 10px;
-    padding-right: 50px;
+    padding-right: 10px;
   }
 
 /* -----------------------------------
@@ -154,22 +154,22 @@ h3 {
 /* -----------------------------------
    Ana and Erin
 ----------------------------------- */
-.organizer-card {
+ .Ana,  .Erin { 
   text-align: center;
-  border: 10px solid #db520d;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  border: #db520d 8px solid;
   border-radius: 4px;
-  padding: 50px;
+  padding: 1px 1px;
   margin: 100px 100px;
 }
 
-.profile-video {
-    width: 500px;
-    max-width: 600px;
-    height: 400px;
-    max-height: 500px;
-    display: block;
-    margin: 0 auto;
+.Erin video,
+.Ana video { 
+  border-radius: 4px;
 }
 
 /* -----------------------------------
